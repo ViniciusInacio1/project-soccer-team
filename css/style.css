@@ -291,3 +291,21 @@ footer .col-red{
    border: red solid 2px;
    height: 200px;
 }
+footer .col-white{
+   border: white solid 2px;
+   height: 200px;
+}
+footer .logo{
+   position: absolute;
+   left: 100px;
+   margin-top: 30px;
+}
+footer .col-1 h4{
+   color: #fff;
+   text-transform: uppercase;
+   font-family: Arial;
+   font-size: 16px;
+   padding-bottom: 17px;
+   padding-top: 40px;
+   border-bottom: #242d27 solid 1px;
+}
