@@ -300,7 +300,11 @@ footer .logo{
    left: 100px;
    margin-top: 30px;
 }
-footer .col-1 h4{
+footer .cols time{
+   color: #fde092;
+   font-size: 14px;
+}
+footer .cols h4{
    color: #fff;
    text-transform: uppercase;
    font-family: Arial;
@@ -308,4 +312,19 @@ footer .col-1 h4{
    padding-bottom: 17px;
    padding-top: 40px;
    border-bottom: #242d27 solid 1px;
+}
+footer .cols h5{
+   color: white;
+   font-size: 14px;
+   font-family: arial;
+}
+footer .cols a{
+   color: #fff;
+   font-size: 14px;
+   font-family: arial;
+}
+footer #i_location{
+   font-size: 16px;
+   font-family: 'OpenSans-Light';
+   
 }
