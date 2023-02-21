@@ -263,6 +263,7 @@ background-image: url("../img/banner.jpg");
 }
 footer{
    width: 100%;
+   
 }
 footer #large {
    height: 200px;
@@ -273,6 +274,7 @@ footer #small{
    background-color: #11171d;
    border-top: #242d37 solid 1px;
    line-height: 60px;
+   font-family: 'OpenSans-Light';
 }
 footer #small #p_left{
    color: white;
