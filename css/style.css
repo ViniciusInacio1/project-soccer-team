@@ -263,7 +263,7 @@ background-image: url("../img/banner.jpg");
 }
 footer{
    width: 100%;
-   
+   font-family: 'OpenSans-Light';
 }
 footer #large {
    height: 200px;
@@ -274,17 +274,18 @@ footer #small{
    background-color: #11171d;
    border-top: #242d37 solid 1px;
    line-height: 60px;
-   font-family: 'OpenSans-Light';
 }
 footer #small #p_left{
    color: white;
    position: absolute;
    left: 10px;
+   font-size: 14px;
 }
 footer #small #p_right{
-   color: white;
+   color: rgb(50, 50, 213);
    position: absolute;
-   right: -993px;
+   right: 30px;
+   font-size: 14px;
 }
 
 
