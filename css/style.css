@@ -5,11 +5,6 @@
    font-family: 'OpenSans-Light';
    src: url("../fonts/OpenSans-Light.ttf");
 }
-
-*{
-   font-family: 'Open Sans';
-   font-size: 16px;
-}
 body{
    padding: 0;
    margin: 0;
@@ -287,14 +282,6 @@ footer #small #p_right{
    right: 30px;
    font-size: 14px;
 }
-footer .col-red{
-   border: red solid 2px;
-   height: 200px;
-}
-footer .col-white{
-   border: white solid 2px;
-   height: 200px;
-}
 footer .logo{
    position: absolute;
    left: 100px;
@@ -322,9 +309,40 @@ footer .cols a{
    color: #fff;
    font-size: 14px;
    font-family: arial;
+   text-decoration: none;
 }
-footer #i_location{
-   font-size: 16px;
-   font-family: 'OpenSans-Light';
-   
+footer address{
+   margin-bottom: 2px;
+}
+footer #i_location i{
+   color: white;
+}
+footer #i_location a{
+   color: #989898;
+   font-family: arial;
+   text-decoration: none;
+}
+footer .i_phone i{
+   color: white;
+}
+footer .i_phone a{
+   color: #989898;
+   font-family: arial;
+}
+footer .loc_phone{
+   margin-bottom: 4px;
+}
+footer .list-socials a{
+   width: 45px;
+   height: 45px;
+   border-radius: 23px;
+   border: #242D37 solid 2px;
+   display: block;
+   text-align: center;
+   margin-top: 7px;
+   padding: 7px;
+}
+footer .list-socials li{
+   display: inline-block;
+   margin: 0 3px;
 }
