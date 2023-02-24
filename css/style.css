@@ -88,6 +88,7 @@ header .header-black li.clube-16 {
 #logo{
    position: absolute;
    top: -20px;
+   z-index: 3;
 }
 #menu{
    position: absolute;
@@ -147,6 +148,7 @@ height: 750px;
 background-image: url("../img/banner.jpg");
 }
 #banner h1{
+   transition: 1s;
    font-size: 92px;
    font-family: 'OpenSans-Light';
    font-weight: bold;
@@ -156,6 +158,10 @@ background-image: url("../img/banner.jpg");
    color: white;
    z-index: 2;
    text-shadow: 2px 2px 2px rgb(0, 0, 0, .40);
+}
+#banner h1.efeito{
+   color: #5e299a;
+   font-size: 12em;
 }
 #banner h1 small{
    font-size: 32px;
