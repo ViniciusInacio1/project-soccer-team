@@ -175,6 +175,9 @@ background-image: url("../img/banner.jpg");
    left: 10px;
    font-family: 'OpenSans-Light';
 }
+#news{
+   padding: 10px 0px;
+}
 #news h2{
    color: #5e2799;
    font-family: 'OpenSans-Light';
@@ -188,8 +191,18 @@ background-image: url("../img/banner.jpg");
 }
 
 /*conf imagens div em geral para todas */
+section .item{
+   padding: 0 2em;
+   position: relative;
+   width: 690px;
+}
+section .item2{
+   padding: 0 27em;
+   left: 30px;
+   position: absolute;
+}
 section .item-inner{
-   padding: 2px 2px;
+   padding: 4px 2px;
    margin: 10px;
 }
 section .item-inner h3{
