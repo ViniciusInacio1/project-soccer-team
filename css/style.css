@@ -16,6 +16,9 @@ background-color: #5e299a;
 z-index: 2;
 position: relative;
 }
+#header_videos{
+   margin-bottom: 100px;
+}
 header .container{
    position: relative;
 }
@@ -185,18 +188,23 @@ background-image: url("../img/banner.jpg");
 }
 
 /*conf imagens div em geral para todas */
-.row .col-md-3{
+section .item-inner{
    padding: 2px 2px;
+   margin: 10px;
 }
-.row .col-md-3 h3{
+section .item-inner h3{
    color: #5e299a;
    font-size: 15px;
    font-weight: bold;
    margin-bottom: 0;
 }
-.row .col-md-3 time{
+section .item-inner time{
    font-family: 'OpenSans-Light';
    color: gray;
+}
+section .video1{
+text-align: center;
+margin-top: 20px;
 }
 
 /*conf geral da div estatistic*/
@@ -221,16 +229,16 @@ background-image: url("../img/banner.jpg");
    display: block;
    margin-top: -23px;
 }
-#call-to-action{
+#call-to-action, #all-videos{
    margin-top: 105px;
    margin-bottom: 60px;
 }
-#call-to-action h2{
+#call-to-action h2, #all-videos{
    font-size: 60px;
    color: #5e299a;
    font-family: 'OpenSans-Light';
 }
-#call-to-action hr{
+#call-to-action hr, #all-videos hr{
    border: #fde092 solid 8px;
    width: 200px;
    margin: 0 auto;
@@ -266,6 +274,9 @@ footer{
    width: 100%;
    font-family: 'OpenSans-Light';
 }
+.row{
+   margin-left: 0;
+}
 footer #large {
    height: 200px;
    background-color: #171f26;
@@ -290,7 +301,7 @@ footer #small #p_right{
 }
 footer .logo{
    position: absolute;
-   left: 100px;
+   left: 73px;
    margin-top: 30px;
 }
 footer .cols time{
