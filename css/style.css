@@ -192,7 +192,7 @@ background-image: url("../img/banner.jpg");
 
 /*conf imagens div em geral para todas */
 section .item{
-   padding: 0 2em;
+   padding:0 2em;
    position: relative;
    width: 690px;
 }
@@ -204,10 +204,13 @@ section .item2{
 section .item-inner{
    padding: 4px 2px;
    margin: 10px;
+   position: relative;
+   margin: 0px -20px;
 }
+
 section .item-inner h3{
    color: #5e299a;
-   font-size: 15px;
+   font-size: 10px;
    font-weight: bold;
    margin-bottom: 0;
 }
